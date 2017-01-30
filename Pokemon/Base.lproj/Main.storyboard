@@ -66,10 +66,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Pokedex View Controller-->
         <scene sceneID="9P2-xt-gaa">
             <objects>
-                <viewController id="vWr-ip-5Zy" sceneMemberID="viewController">
+                <viewController id="vWr-ip-5Zy" customClass="PokedexViewController" customModule="Pokemon" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RuO-lb-GJ3"/>
                         <viewControllerLayoutGuide type="bottom" id="kwh-Jv-esn"/>
@@ -89,6 +89,9 @@
                                     <constraint firstAttribute="width" constant="50" id="6OZ-iI-Q8d"/>
                                 </constraints>
                                 <state key="normal" image="map"/>
+                                <connections>
+                                    <action selector="mapTapped:" destination="vWr-ip-5Zy" eventType="touchUpInside" id="eje-1t-H91"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -101,6 +104,9 @@
                             <constraint firstItem="8Rf-Vk-K3Y" firstAttribute="top" secondItem="RuO-lb-GJ3" secondAttribute="bottom" id="wph-kH-DEy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="8Rf-Vk-K3Y" id="8Oy-rj-jta"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y2O-rR-jWM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
