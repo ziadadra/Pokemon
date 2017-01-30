@@ -14,7 +14,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "9942335F1E3E16D400D6A97E"
+=======
+               BlueprintIdentifier = "9938EF741E3DE9E400362939"
+>>>>>>> e49b8825c03cb81bb0db42ae26ffcfe5ef7f380f
                BuildableName = "Pokemon.app"
                BlueprintName = "Pokemon"
                ReferencedContainer = "container:Pokemon.xcodeproj">
@@ -32,7 +36,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "9942335F1E3E16D400D6A97E"
+=======
+            BlueprintIdentifier = "9938EF741E3DE9E400362939"
+>>>>>>> e49b8825c03cb81bb0db42ae26ffcfe5ef7f380f
             BuildableName = "Pokemon.app"
             BlueprintName = "Pokemon"
             ReferencedContainer = "container:Pokemon.xcodeproj">
@@ -55,7 +63,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "9942335F1E3E16D400D6A97E"
+=======
+            BlueprintIdentifier = "9938EF741E3DE9E400362939"
+>>>>>>> e49b8825c03cb81bb0db42ae26ffcfe5ef7f380f
             BuildableName = "Pokemon.app"
             BlueprintName = "Pokemon"
             ReferencedContainer = "container:Pokemon.xcodeproj">
@@ -74,7 +86,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "9942335F1E3E16D400D6A97E"
+=======
+            BlueprintIdentifier = "9938EF741E3DE9E400362939"
+>>>>>>> e49b8825c03cb81bb0db42ae26ffcfe5ef7f380f
             BuildableName = "Pokemon.app"
             BlueprintName = "Pokemon"
             ReferencedContainer = "container:Pokemon.xcodeproj">

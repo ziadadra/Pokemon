@@ -1,4 +1,8 @@
+<<<<<<< HEAD
   //
+=======
+//
+>>>>>>> e49b8825c03cb81bb0db42ae26ffcfe5ef7f380f
 //  AppDelegate.swift
 //  Pokemon
 //
@@ -7,10 +11,15 @@
 //
 
 import UIKit
+<<<<<<< HEAD
 import CoreData
 
 @UIApplicationMain
 
+=======
+
+@UIApplicationMain
+>>>>>>> e49b8825c03cb81bb0db42ae26ffcfe5ef7f380f
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -41,6 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+<<<<<<< HEAD
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
@@ -89,6 +99,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+=======
+    }
+
+>>>>>>> e49b8825c03cb81bb0db42ae26ffcfe5ef7f380f
 
 }
 
