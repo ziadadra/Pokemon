@@ -14,7 +14,6 @@
 		9942336E1E3E16D400D6A97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9942336D1E3E16D400D6A97E /* Assets.xcassets */; };
 		994233711E3E16D400D6A97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9942336F1E3E16D400D6A97E /* LaunchScreen.storyboard */; };
 		9942337A1E3E176800D6A97E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994233791E3E176800D6A97E /* MapKit.framework */; };
-		9942CE551E3E696000C43BD6 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9942CE541E3E696000C43BD6 /* PokedexViewController.swift */; };
 		9942CE571E3E6C2B00C43BD6 /* CoreDataHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9942CE561E3E6C2B00C43BD6 /* CoreDataHelp.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		994233701E3E16D400D6A97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		994233721E3E16D400D6A97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		994233791E3E176800D6A97E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		9942CE541E3E696000C43BD6 /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
 		9942CE561E3E6C2B00C43BD6 /* CoreDataHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +64,6 @@
 			children = (
 				994233631E3E16D400D6A97E /* AppDelegate.swift */,
 				994233651E3E16D400D6A97E /* ViewController.swift */,
-				9942CE541E3E696000C43BD6 /* PokedexViewController.swift */,
 				994233671E3E16D400D6A97E /* Main.storyboard */,
 				9942CE561E3E6C2B00C43BD6 /* CoreDataHelp.swift */,
 				9942336D1E3E16D400D6A97E /* Assets.xcassets */,
@@ -159,7 +156,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				994233661E3E16D400D6A97E /* ViewController.swift in Sources */,
-				9942CE551E3E696000C43BD6 /* PokedexViewController.swift in Sources */,
 				994233641E3E16D400D6A97E /* AppDelegate.swift in Sources */,
 				9942CE571E3E6C2B00C43BD6 /* CoreDataHelp.swift in Sources */,
 				9942336C1E3E16D400D6A97E /* Pokemon.xcdatamodeld in Sources */,
