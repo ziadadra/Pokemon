@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
     
     @IBOutlet weak var mapView: MKMapView!
     var updateCount = 0
@@ -28,6 +28,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
             print("Ready to go")
+            mapView.delegate = self
+            
             mapView.showsUserLocation = true
             manager.startUpdatingLocation()
             
@@ -56,6 +58,30 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
         
     }
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        if annotation is MKUserLocation {
+            let annoView = MKAnnotationView(annotation: annotation, reuseIdentifier: nil)
+            annoView.image = UIImage(named: "iss1")
+            var frame = annoView.frame
+            
+            frame.size.height=50
+            frame.size.width=50
+            annoView.frame = frame
+            
+            return annoView
+        }
+        let annoView = MKAnnotationView(annotation: annotation, reuseIdentifier: nil)
+        annoView.image = UIImage(named: "mew")
+        var frame = annoView.frame
+        
+        frame.size.height=50
+        frame.size.width=50
+        annoView.frame = frame
+        
+        return annoView
+        
+    }
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if updateCount < 3 {
             let region = MKCoordinateRegionMakeWithDistance(manager.location!.coordinate, 200, 200)

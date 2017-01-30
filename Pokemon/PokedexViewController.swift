@@ -52,8 +52,19 @@ class PokedexViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+         let pokemon : Pokemon
+        if indexPath.section == 0 {
+            
+           
+              pokemon = caughtPokemons[indexPath.row]
+        } else {
+                pokemon = uncaughtPokemons[indexPath.row]
+        }
+        
         let cell = UITableViewCell()
-        cell.textLabel?.text = "Hello theire"
+        cell.textLabel?.text = pokemon.name
+        cell.imageView?.image = UIImage(named: pokemon.imageName!)
+        
         return cell
         
     }
