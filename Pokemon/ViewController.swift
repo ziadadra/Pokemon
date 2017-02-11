@@ -39,8 +39,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
                 if let coord = self.manager.location?.coordinate {
                     let anno = MKPointAnnotation()
                     anno.coordinate = coord
-                    let randoLat = (Double(arc4random_uniform(200))-100)/70000.0
-                    let randoLon = (Double(arc4random_uniform(200))-100)/70000.0
+                    let randoLat = (Double(arc4random_uniform(200))-100)/65000.0
+                    let randoLon = (Double(arc4random_uniform(200))-100)/65000.0
 
                     anno.coordinate.latitude += randoLat
                     anno.coordinate.longitude += randoLon
