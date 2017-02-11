@@ -41,8 +41,8 @@ func addAllPokemon() {
     createPokemon(name: "David Alaba", imageName: "alaba")
     createPokemon(name: "Thibaut Courtois", imageName: "courtois")
     
+
     (UIApplication.shared.delegate as! AppDelegate).saveContext()
-    
     
 }
 
