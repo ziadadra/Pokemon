@@ -26,6 +26,8 @@ func addAllPokemon() {
     createPokemon(name: "Snorlax", imageName: "snorlax")
     createPokemon(name: "Smartphone", imageName: "smartphone")
     createPokemon(name: "Eevee", imageName: "eevee")
+    createPokemon(name: "Messi", imageName: "messi")
+    createPokemon(name: "Ronaldo", imageName: "ronaldo")
     
     (UIApplication.shared.delegate as! AppDelegate).saveContext()
     

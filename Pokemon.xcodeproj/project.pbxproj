@@ -16,6 +16,7 @@
 		9942337A1E3E176800D6A97E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994233791E3E176800D6A97E /* MapKit.framework */; };
 		9942CE571E3E6C2B00C43BD6 /* CoreDataHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9942CE561E3E6C2B00C43BD6 /* CoreDataHelp.swift */; };
 		99D4F4C51E3FA12B0045F6B8 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D4F4C41E3FA12B0045F6B8 /* PokedexViewController.swift */; };
+		DB34F5341E4F2CD50063C05D /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34F5331E4F2CD50063C05D /* PokeAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		994233791E3E176800D6A97E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9942CE561E3E6C2B00C43BD6 /* CoreDataHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelp.swift; sourceTree = "<group>"; };
 		99D4F4C41E3FA12B0045F6B8 /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
+		DB34F5331E4F2CD50063C05D /* PokeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				994233631E3E16D400D6A97E /* AppDelegate.swift */,
 				994233651E3E16D400D6A97E /* ViewController.swift */,
+				DB34F5331E4F2CD50063C05D /* PokeAnnotation.swift */,
 				99D4F4C41E3FA12B0045F6B8 /* PokedexViewController.swift */,
 				994233671E3E16D400D6A97E /* Main.storyboard */,
 				9942CE561E3E6C2B00C43BD6 /* CoreDataHelp.swift */,
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				994233661E3E16D400D6A97E /* ViewController.swift in Sources */,
+				DB34F5341E4F2CD50063C05D /* PokeAnnotation.swift in Sources */,
 				994233641E3E16D400D6A97E /* AppDelegate.swift in Sources */,
 				99D4F4C51E3FA12B0045F6B8 /* PokedexViewController.swift in Sources */,
 				9942CE571E3E6C2B00C43BD6 /* CoreDataHelp.swift in Sources */,
